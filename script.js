@@ -1,4 +1,4 @@
-function init(options = { dark: false, style: "regular" }) {
+function newMockFrame(options = { dark: false, style: "regular" }) {
   var iframes = document.querySelectorAll("iframe");
   for (let iframe of iframes) {
     let parent = iframe.parentNode;
@@ -82,8 +82,3 @@ function init(options = { dark: false, style: "regular" }) {
     }
   }
 };
-
-init({
-  dark: true,
-  style: "outline"
-});
