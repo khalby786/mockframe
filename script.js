@@ -20,7 +20,6 @@ function init(options = { dark: false, style: "regular" }) {
         border: none;
         border-bottom-left-radius: 9px;
         border-bottom-right-radius: 9px;
-        height: 100%;
         display: block;
       }
 
