@@ -17,6 +17,7 @@ function newMockFrame(options = { dark: false, style: "regular" }) {
 
       iframe {
         width: 100%;
+        height: 100%;
         border: none;
         border-bottom-left-radius: 9px;
         border-bottom-right-radius: 9px;
